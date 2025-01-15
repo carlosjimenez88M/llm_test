@@ -1,0 +1,24 @@
+name: model_evaluation
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - mlflow
+  - pip=24.0
+  - scikit-learn=1.5.2
+  - transformers=4.46.2
+  - evidently=0.5.1
+  - pip:
+      - jsonlines
+      - langchain== 0.3.14
+      - wandb==0.18.3
+      - hydra-core
+      - langchain-community
+      - openai
+      - tiktoken
+      - langchain-openai
+      - faiss-cpu
+      - langchain
+      - python-dotenv
+      - pandas==2.2.3
+      - sqlalchemy

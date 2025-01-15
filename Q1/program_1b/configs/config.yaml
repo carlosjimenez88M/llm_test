@@ -1,0 +1,20 @@
+paths:
+  reference_data: data/reference_data.csv
+  current_data: data/current_data.csv
+  logs: data/interaction_log.json
+  drift_report: reports/data_drift_report.html
+
+hydra:
+  run:
+    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+model:
+  name: React Agent
+  vector_store_path: ./vector_store
+
+wandb:
+  project: insurance_llm_agent
+  run_name: LLM_RAG_Run
+
+mlflow:
+  run_name: ${wandb.run_name}

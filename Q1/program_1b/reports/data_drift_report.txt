@@ -1,0 +1,33 @@
+
+Evaluation Report
+================
+Total Queries Processed: 3
+
+Performance Metrics
+-----------------
+Precision: 100.00%
+Recall: 67.00%
+F1 Score: 80.00%
+Average Response Similarity: 67.00%
+Perfect Matches (>90% similar): 2
+
+Detailed Analysis
+---------------
+
+Query 1: What does my insurance cover?
+Similarity Score: 100.00%
+Predicted: Your insurance covers hospitalization, outpatient visits, and medications.
+Ground Truth: Your insurance covers hospitalization, outpatient visits, and medications.
+--------------------------------------------------
+
+Query 2: How can I file a claim?
+Similarity Score: 100.00%
+Predicted: To file a claim, log in to your account, select 'Claims,' and upload the required documents.
+Ground Truth: To file a claim, log in to your account, select 'Claims,' and upload the required documents.
+--------------------------------------------------
+
+Query 3: What is the copay for visits?
+Similarity Score: 0.00%
+Predicted: The copayment for doctor visits is $20 per visit.
+Ground Truth: 
+--------------------------------------------------
